@@ -21,13 +21,15 @@ function Percentage(){
     }
 
     return (
-        <div>
-            <ul>
-                {Object.entries(sectorPercentages).map(([sectorId, percentage]) => (
-                   <PercentageList key ={sectorId} sectorId={sectorId} percentage={percentage}/>
-                ))}
-            </ul>
-        </div>
+            <table>
+                <tr>
+                    <th>Sector_Id</th>
+                     <th>{'Percentage(%)'}</th>
+                </tr>
+                     {Object.entries(sectorPercentages).map(([sectorId, percentage]) => (
+                     <PercentageList key ={sectorId} sectorId={sectorId} percentage={percentage}/>
+                     ))}
+            </table>
     );
 }
 export default Percentage
