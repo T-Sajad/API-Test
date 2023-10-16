@@ -1,14 +1,10 @@
-function PercentageList({sectorId,percentage}){
-    return(
+function PercentageList({ sectorId, percentage }) {
+  return (
     <tr>
-        <td>
-            {sectorId} 
-            </td>     
-        <td>
-            {percentage}
-            </td>
+      <td className="values">{sectorId}</td>
+      <td className="values">{percentage}</td>
     </tr>
-     )
+  );
 }
 
-export default PercentageList
+export default PercentageList;

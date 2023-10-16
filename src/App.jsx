@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import Options from './components/Tabs'
-import  './App.css'
+import './App.css';
+import Options from './components/Tabs';
 
 function App() {
- 
   return (
-  <div >
-      <Options/>
-  </div>
-  )
+    <div>
+      <Options />
+    </div>
+  );
 }
 
-export default App
+export default App;

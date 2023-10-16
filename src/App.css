@@ -41,18 +41,16 @@
   color: #888;
 }
 
-.TabList{
+.TabList {
   display: inline-flex;
   border-style: groove;
   margin: 40px;
   padding: 15px;
   border-radius: 35px;
-
 }
 
-.Tab{
+.Tab {
   display: contents;
- 
 }
 
 .TabList:hover {
@@ -60,29 +58,23 @@
   box-shadow: 3px 3px 15px 0px rgba(128, 0, 0, 1);
 }
 
-.Interactions{
+.Interactions {
   border: 2px solid;
   margin: 60px;
   border-radius: 40px;
 }
 
-/* .Percentages{
-  border-style: groove;
-  margin: 90px;
-  border-radius: 100px;
-} */
-
-table{
+table {
   display: inline-block;
 }
 
-th{
+th {
   padding: 25px;
 }
 
-
-
-table,th,td{
+table,
+th,
+td {
   border: 2px solid;
   border-radius: 2px;
   border-collapse: collapse;
