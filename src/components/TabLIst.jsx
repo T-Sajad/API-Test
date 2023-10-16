@@ -4,10 +4,10 @@ function TabList({setCurrentPage,renderPage}){
     <nav>
        <ul className='Tab'>
          <li className='TabList'>
-           <div onClick={() => setCurrentPage('Interactions')}><h2>All interactions</h2></div>
+           <div onClick={() => setCurrentPage('Interactions')}><h2>All Interactions</h2></div>
          </li>
          <li className='TabList'>
-         <div onClick={() => setCurrentPage('Percenatge')}><h2>Client Sectors</h2></div>
+         <div onClick={() => setCurrentPage('Percenatge')}><h2>Client Interactions</h2></div>
          </li>
        </ul>
      </nav>
